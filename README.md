@@ -28,12 +28,12 @@ The theme selection is stored using **localStorage**, so your preferred mode is 
 
 1. Clone the repository:  
    ```bash
-   git clone <your-repo-link>
+   git clone <https://github.com/DevSen101/Light-Dark-Mode.git>
 Open the project folder and run in your browser (no build tools required).
 
-🔗 Links
-GitHub Repo: Your Repo Link
+### 🔗 Links
 
+GitHub Repo: https://github.com/DevSen101/Light-Dark-Mode.git <br>
 Live Demo: https://devsenlightdarkmode.netlify.app
 
 ---
@@ -47,24 +47,6 @@ Live Demo: https://devsenlightdarkmode.netlify.app
 🌙 Dark Mode
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/2d88d347-c122-40e7-a56f-1ac4a5077d36" />
 
-
-📌 Main Functions Explained
-Local Storage Handling
-
-js
-Copy code
-localStorage.setItem('theme', 'dark'); // Save preference
-const currentTheme = localStorage.getItem('theme'); // Load preference
-Dynamic Theme Switch
-
-js
-Copy code
-toggleSwitch.addEventListener('change', switchTheme);
-Dynamic Image Update
-
-js
-Copy code
-function imageMode(color){
-    image1.src = `img/undraw_proud_coder_${color}.svg`;
-}
 ✨ Built with pure JavaScript – no frameworks, no dependencies.
+
+Author - Dev Kumar Sen
